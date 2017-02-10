@@ -5,7 +5,7 @@ function sqrt(num){
 
 module.exports = {
   PI: Math.PI,
-  val: function() {
-    console.log(sqrt(2));
+  val: function(x) {
+    console.log(sqrt(x));
   }
 };
